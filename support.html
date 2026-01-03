@@ -33,13 +33,13 @@
 
             <section>
                 <h3>Getting Started</h3>
-                <p>Welcome to JRDrive! Here's how to get started with managing your cloud storage:</p>
+                <p>Welcome to JRDrive! Here's how to get started with managing your remote storage:</p>
                 <ol>
                     <li>Launch JRDrive from your iOS home screen</li>
-                    <li>Tap the "+" button to add your first cloud storage remote</li>
-                    <li>Select your cloud provider (Google Drive, Dropbox, OneDrive, etc.)</li>
-                    <li>Follow the authentication prompts to connect your account</li>
-                    <li>Browse, manage, and stream your files directly from your cloud storage</li>
+                    <li>Tap the "+" button to add your first remote</li>
+                    <li>Select your server type (WebDAV, SFTP, FTP, or SMB)</li>
+                    <li>Enter your server details and credentials</li>
+                    <li>Browse, manage, and stream your files directly from your remote storage</li>
                 </ol>
             </section>
 
@@ -47,23 +47,21 @@
                 <h3>Frequently Asked Questions</h3>
 
                 <div class="faq-item">
-                    <h4>What cloud services does JRDrive support?</h4>
-                    <p>JRDrive supports a wide variety of cloud storage providers including:</p>
+                    <h4>What remote storage does JRDrive support?</h4>
+                    <p>JRDrive currently supports the following remote storage types:</p>
                     <ul>
-                        <li>Google Drive</li>
-                        <li>Dropbox</li>
-                        <li>Microsoft OneDrive</li>
-                        <li>Amazon S3</li>
-                        <li>Backblaze B2</li>
-                        <li>WebDAV servers</li>
-                        <li>SFTP/FTP servers</li>
-                        <li>And many more via rclone compatibility</li>
+                        <li>WebDAV servers (including Nextcloud, ownCloud, etc.)</li>
+                        <li>SFTP servers (SSH File Transfer Protocol)</li>
+                        <li>FTP servers</li>
+                        <li>SMB/CIFS (Windows file shares, NAS devices)</li>
+                        <li>Encrypted remotes (client-side encryption for any of the above)</li>
                     </ul>
+                    <p>Support for additional cloud services like Google Drive, Dropbox, and OneDrive is planned for future updates.</p>
                 </div>
 
                 <div class="faq-item">
                     <h4>How many remotes can I add?</h4>
-                    <p>Free users can add up to 2 cloud storage remotes. Premium users can add unlimited remotes to manage all their cloud storage in one place.</p>
+                    <p>Free users can add up to 2 remotes. Premium users can add unlimited remotes to manage all their storage in one place.</p>
                 </div>
 
                 <div class="faq-item">
@@ -152,8 +150,8 @@
                 <h3>Key Features</h3>
                 <div class="features-grid">
                     <div class="feature-item">
-                        <h4>Multi-Cloud Support</h4>
-                        <p>Connect to Google Drive, Dropbox, OneDrive, S3, and many more cloud services in one app</p>
+                        <h4>Multi-Protocol Support</h4>
+                        <p>Connect to WebDAV, SFTP, FTP, and SMB servers all in one app</p>
                     </div>
                     <div class="feature-item">
                         <h4>Video Streaming</h4>
