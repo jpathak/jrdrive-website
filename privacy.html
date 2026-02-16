@@ -30,11 +30,11 @@
     <main class="policy-content">
         <div class="container">
             <h2>Privacy Policy</h2>
-            <p class="last-updated">Last Updated: January 2026</p>
+            <p class="last-updated">Last Updated: February 2026</p>
 
             <section>
                 <h3>Overview</h3>
-                <p>JRDrive is committed to protecting your privacy. This Privacy Policy explains our practices regarding the collection, use, and disclosure of information when you use our iOS remote storage management application.</p>
+                <p>JRDrive is committed to protecting your privacy. This Privacy Policy explains our practices regarding the collection, use, and disclosure of information when you use our iOS and Android remote storage management application.</p>
             </section>
 
             <section>
@@ -53,10 +53,11 @@
 
             <section>
                 <h3>Remote Server Connections</h3>
-                <p>JRDrive allows you to connect to various remote storage servers (such as WebDAV, SFTP, FTP, and SMB servers). When you connect to these services:</p>
+                <p>JRDrive allows you to connect to various remote storage servers and cloud providers (such as Google Drive, Dropbox, OneDrive, WebDAV, SFTP, FTP, SMB, and many others). When you connect to these services:</p>
                 <ul>
                     <li>Your server credentials are stored securely and locally on your device</li>
-                    <li>Credentials are encrypted and stored in the iOS Keychain</li>
+                    <li>On iOS, credentials are encrypted and stored in the iOS Keychain</li>
+                    <li>On Android, credentials are encrypted using EncryptedSharedPreferences backed by the Android Keystore (AES-256-GCM)</li>
                     <li>JRDrive communicates directly with your servers - we never see or store your credentials</li>
                     <li>Your files are transferred directly between your device and your remote servers</li>
                     <li>No file content passes through our servers</li>
@@ -90,7 +91,7 @@
                 <h3>Data Storage</h3>
                 <p>Any preferences, settings, or remote configurations you set within JRDrive are stored locally on your device only. This information:</p>
                 <ul>
-                    <li>Never leaves your device (except for iCloud backup if enabled)</li>
+                    <li>Never leaves your device (except for platform backups if enabled, such as iCloud or Android Auto Backup)</li>
                     <li>Is not accessible to us or any third parties</li>
                     <li>Can be deleted by uninstalling the app</li>
                     <li>Is not shared with other applications</li>
@@ -105,7 +106,7 @@
 
             <section>
                 <h3>In-App Purchases</h3>
-                <p>JRDrive offers a premium upgrade through the Apple App Store. Purchase transactions are handled entirely by Apple. We do not collect or store any payment information.</p>
+                <p>JRDrive offers a premium upgrade through the Apple App Store and Google Play Store. Purchase transactions are handled entirely by Apple or Google respectively. We do not collect or store any payment information.</p>
             </section>
 
             <section>

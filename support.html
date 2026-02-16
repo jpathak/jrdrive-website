@@ -35,9 +35,9 @@
                 <h3>Getting Started</h3>
                 <p>Welcome to JRDrive! Here's how to get started with managing your remote storage:</p>
                 <ol>
-                    <li>Launch JRDrive from your iOS home screen</li>
+                    <li>Launch JRDrive on your device</li>
                     <li>Tap the "+" button to add your first remote</li>
-                    <li>Select your server type (WebDAV, SFTP, FTP, or SMB)</li>
+                    <li>Select your storage type (Google Drive, Dropbox, OneDrive, WebDAV, SFTP, FTP, SMB, and more)</li>
                     <li>Enter your server details and credentials</li>
                     <li>Browse, manage, and stream your files directly from your remote storage</li>
                 </ol>
@@ -48,15 +48,16 @@
 
                 <div class="faq-item">
                     <h4>What remote storage does JRDrive support?</h4>
-                    <p>JRDrive currently supports the following remote storage types:</p>
+                    <p>JRDrive supports 40+ cloud storage providers and remote server types, including:</p>
                     <ul>
-                        <li>WebDAV servers (including Nextcloud, ownCloud, etc.)</li>
+                        <li>Google Drive, Dropbox, OneDrive, Amazon S3, Backblaze B2</li>
+                        <li>WebDAV servers (Nextcloud, ownCloud, etc.)</li>
                         <li>SFTP servers (SSH File Transfer Protocol)</li>
                         <li>FTP servers</li>
                         <li>SMB/CIFS (Windows file shares, NAS devices)</li>
                         <li>Encrypted remotes (client-side encryption for any of the above)</li>
+                        <li>And many more - powered by rclone</li>
                     </ul>
-                    <p>Support for additional cloud services like Google Drive, Dropbox, and OneDrive is planned for future updates.</p>
                 </div>
 
                 <div class="faq-item">
@@ -71,7 +72,7 @@
 
                 <div class="faq-item">
                     <h4>Is my data secure?</h4>
-                    <p>Yes. JRDrive stores your cloud service credentials securely in the iOS Keychain. All communication with cloud providers uses encrypted connections. Your credentials and files never pass through our servers.</p>
+                    <p>Yes. On iOS, JRDrive stores your cloud service credentials securely in the iOS Keychain. On Android, credentials are encrypted using EncryptedSharedPreferences backed by the Android Keystore. All communication with cloud providers uses encrypted connections. Your credentials and files never pass through our servers.</p>
                 </div>
 
                 <div class="faq-item">
@@ -80,8 +81,8 @@
                 </div>
 
                 <div class="faq-item">
-                    <h4>Can I stream videos from my cloud storage?</h4>
-                    <p>Yes! JRDrive includes a built-in video player that can stream videos directly from your cloud storage without needing to download the entire file first.</p>
+                    <h4>Can I stream videos and music from my cloud storage?</h4>
+                    <p>Yes! JRDrive includes a built-in media player that can stream videos and audio directly from your cloud storage without needing to download the entire file first.</p>
                 </div>
 
                 <div class="faq-item">
@@ -138,7 +139,7 @@
                     <h4>App crashes or freezes</h4>
                     <ul>
                         <li>Force quit the app and restart it</li>
-                        <li>Ensure your iOS is updated to the latest version</li>
+                        <li>Ensure your operating system is updated to the latest version</li>
                         <li>Check if you have the latest version of JRDrive installed</li>
                         <li>Free up device storage if running low</li>
                         <li>Restart your device if problems persist</li>
@@ -150,19 +151,19 @@
                 <h3>Key Features</h3>
                 <div class="features-grid">
                     <div class="feature-item">
-                        <h4>Multi-Protocol Support</h4>
-                        <p>Connect to WebDAV, SFTP, FTP, and SMB servers all in one app</p>
+                        <h3>40+ Cloud Providers</h3>
+                        <p>Connect to Google Drive, Dropbox, OneDrive, S3, WebDAV, SFTP, FTP, SMB, and many more</p>
                     </div>
                     <div class="feature-item">
-                        <h4>Video Streaming</h4>
-                        <p>Stream videos directly from your cloud storage with the built-in player</p>
+                        <h3>Media Streaming</h3>
+                        <p>Stream videos and music directly from your cloud storage with the built-in player</p>
                     </div>
                     <div class="feature-item">
-                        <h4>Encrypted Remotes</h4>
+                        <h3>Encrypted Remotes</h3>
                         <p>Keep your files private with client-side encryption (Premium)</p>
                     </div>
                     <div class="feature-item">
-                        <h4>Thumbnail Previews</h4>
+                        <h3>Thumbnail Previews</h3>
                         <p>Visual previews for images and videos make browsing easier (Premium)</p>
                     </div>
                 </div>
@@ -184,9 +185,9 @@
                 <div class="support-tips">
                     <h4>When contacting support, please include:</h4>
                     <ul>
-                        <li>Your iOS version</li>
+                        <li>Your device and operating system version (e.g., Android 14, iOS 17)</li>
                         <li>JRDrive app version</li>
-                        <li>Device model (iPhone/iPad)</li>
+                        <li>Device model</li>
                         <li>Which cloud service you are having issues with</li>
                         <li>Detailed description of the issue</li>
                         <li>Steps to reproduce the problem (if applicable)</li>
@@ -202,12 +203,12 @@
 
             <section>
                 <h3>App Updates</h3>
-                <p>We regularly update JRDrive to add new cloud service support, improve performance, and fix bugs. Enable automatic updates in the App Store to ensure you always have the latest version.</p>
+                <p>We regularly update JRDrive to add new cloud service support, improve performance, and fix bugs. Enable automatic updates in the App Store or Google Play Store to ensure you always have the latest version.</p>
             </section>
 
             <section>
                 <h3>Privacy & Security</h3>
-                <p>Your privacy is paramount. JRDrive never stores your files on our servers - all data flows directly between your device and your cloud storage providers. Credentials are stored securely in the iOS Keychain, and all connections use encryption.</p>
+                <p>Your privacy is paramount. JRDrive never stores your files on our servers - all data flows directly between your device and your cloud storage providers. Credentials are stored securely using platform-native encryption, and all connections use encryption.</p>
             </section>
         </div>
     </main>
